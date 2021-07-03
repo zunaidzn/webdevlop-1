@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Otomanopee+One&display=swap");
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 0px;
+
+  font-size: 22px;
+}
+
+.zcolor {
+  color: darkorchid;
+}
+section {
+  display: flex;
+}
+.halfw {
+  width: 50%;
+  padding: 5%;
+}
+.halfw img {
+  width: 70%;
+}
+.link-b {
+  text-decoration: none;
+  background-image: linear-gradient(red, rgb(206, 255, 71));
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.mm {
+  background-image: url(images/uuu.png);
+  background-repeat: no-repeat;
+}
