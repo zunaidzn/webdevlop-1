@@ -11,6 +11,7 @@ body {
 }
 section {
   display: flex;
+  margin-bottom: 50px;
 }
 .halfw {
   width: 50%;
@@ -26,8 +27,17 @@ section {
   color: rgb(255, 255, 255);
   padding: 10px 20px;
   border-radius: 10px;
+  text-transform: uppercase;
 }
 .mm {
   background-image: url(images/uuu.png);
   background-repeat: no-repeat;
+}
+.color {
+  color: darkorange;
+}
+.drembig {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
