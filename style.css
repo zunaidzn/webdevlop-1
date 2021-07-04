@@ -9,7 +9,7 @@ body {
 .zcolor {
   color: darkorchid;
 }
-section {
+.s-flex {
   display: flex;
   margin-bottom: 50px;
 }
@@ -20,7 +20,7 @@ section {
 .halfw img {
   width: 70%;
 }
-.link-b {
+.lin {
   text-decoration: none;
   background-image: linear-gradient(red, rgb(206, 255, 71));
   font-weight: 700;
@@ -40,4 +40,20 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.hhh {
+  text-align: justify;
+}
+.linear {
+  color: rgb(168, 255, 6);
+}
+.my-first {
+  color: tomato;
+}
+.bord {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 1px 0px 7px 3px red;
+  padding: 10px;
 }
