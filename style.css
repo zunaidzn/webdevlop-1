@@ -2,8 +2,9 @@
 body {
   font-family: "Nanum Gothic", sans-serif;
   margin: 0px;
-
-  font-size: 22px;
+}
+h1 {
+  font-size: 50px;
 }
 
 .zcolor {
@@ -56,4 +57,22 @@ body {
   margin-right: 5%;
   box-shadow: 1px 0px 7px 3px red;
   padding: 10px;
+}
+.section3 {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#border {
+  border-left: 7px solid;
+  border-image: linear-gradient(black, red);
+  border-image-slice: 1;
+}
+#next {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, red);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
